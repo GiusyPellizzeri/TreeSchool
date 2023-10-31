@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: hotpink;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 113px;
+}
+
+h2{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 56px;
+}
+
+a{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    color: hotpink;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+
+section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.button{
+    background-color: hotpink;
+    color: rgb(255, 208, 231);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 36px;
+}
+
+.button:hover{
+    background-color: lightskyblue;
+    color: rgb(72, 72, 230);
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.hero{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,242,248,1) 30%, rgba(255,208,231,1) 100%);
+}
+
+.herocontent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,h2,h3{
+    margin-bottom: 48px;
+}
+
+.herocta{
+    align-self: flex-end;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,242,248,1) 30%, rgba(255,208,231,0.16241299303944312) 100%);
+}
+
+.headercont{
+    display: flex;
+
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-right: 64px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin-right: 24px;
+}
+
+.menu ul li a{
+    font-size: 24px;
+}
+
+.worksmenu ul{
+    list-style: none;
+    display: flex;
+}
+
+.worksmenu ul li{
+    margin-right: 24px;
+}
+
+.workitem{
+    margin-bottom: 96px;
+}
+
+.workitemtag{
+    font-size: 24px;
+    color: lightskyblue;
+}
+
+.workinfo{
+    display: flex;
+}
+
+.label{
+    width: 200px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content{
+    width: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images img{
+    margin-bottom: 36px;
+}
+
+.imgdx{
+    align-self: flex-end;
+}
+
+.imgsx{
+    align-self: flex-start;
+}
+
+.contatti{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about, .form{
+    width: 40%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.inputlabel{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.inputfield{
+    font-family: "work sans", sans-serif;
+    font-size: 18px;
+    color: hotpink;
+    background-color: rgb(255, 208, 231);
+    padding: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.inputarea{
+    font-family: "work sans", sans-serif;
+    font-size: 18px;
+    color: hotpink;
+    background-color: rgb(255, 208, 231);
+    padding: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    height: 100px;
+}
