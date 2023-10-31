@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+main .stories {
+  background-color: beige;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+main .stories p {
+  text-align: center;
+}
+main .stories img {
+  width: 100px;
+  border: solid #e1306c;
+  border-radius: 100%;
+}
+main .postcontainer .postheader {
+  background-color: aliceblue;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main .postcontainer img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  position: fixed;
+  bottom: 0;
+}
+footer img {
+  width: 50px;
+}/*# sourceMappingURL=instastyle.css.map */
