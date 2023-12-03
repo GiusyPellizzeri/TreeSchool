@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--commento ctrl+ù-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primi passi con HTML</title>
+<!-- per adattarsi ai vari tipi di dispositivo -->
+    <style>
+        body{background-color: aquamarine}          /*telefono*/
+        @media screen and (min-width:480px){          /*tablet*/
+            body{background-color: blueviolet;}
+        }
+        @media screen and (min-width:760px){        /*desktop*/
+            body{background-color: brown;}
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>La mia prima pagina web</h1>
+        <span>
+            <p>testo di prova</p>
+        </span>
+        <p>altro paragrafo</p>
+    </div>
+    <p>altro paragrafo ancora
+        ma anche se vado a capo è sulla stessa linea
+    </p>
+    <p>ma se voglio andare a capo <br>uso questo tag</p>
+
+    <h1>intestazione 1</h1>
+    <h2>intestazione 2</h2>
+    <h3>intestazione 3</h3>
+    <h4>intestazione 4</h4>
+    <h5>intestazione 5</h5>
+    <h6>intestazione 6</h6>
+<hr>
+    <p>bold <b>bold</b><br>strong <strong>strong</strong></p>
+    <p>italics <i>italics</i> <br> italics <em>italics</em></p>
+    <p>citazione<blockquote>citazione</blockquote></p>
+    <!--elenchi-->
+ <hr>
+    <ol>
+        <li>primo elemento</li>
+        <ol type="a">
+            <li>primo</li>
+            <li>secondo</li>
+            <li>terzo</li>
+        </ol>
+        <li>secondo elemento</li>
+        <ol start="4">
+            <li>primo</li>
+            <li>secondo</li>
+            <li>terzo</li>
+        </ol>
+        <li>terzo elemento</li>
+    </ol>
+
+    <ul>
+        <li>primo</li>
+        <li>secondo</li>
+        <li>terzo</li>
+    </ul>
+
+    <dl>
+       <dt>term</dt>
+       <dd>definizione</dd>
+       <dd>definizione</dd>
+    </dl>
+<hr>
+    <button>premi qui</button>
+</body>
+</html>

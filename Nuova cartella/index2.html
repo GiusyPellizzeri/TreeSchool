@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prove varie</title>
+    <style>
+        a:link{background: hotpink;}
+        a:visited{color: whitesmoke;}
+        p:hover{color: blueviolet;}
+        button:active{background: pink;}
+    </style>
+</head>
+<!-- commento ctrl+ù -->
+<body>
+
+    <p>
+    <cite>citazione</cite><br>
+     <q>quote</q><br>
+    <abbr title="abbreviazione">abrr</abbr><br>
+    <dfn title="definizione">dfn</dfn><br>
+    qualcosa <sup>apice</sup> <br>
+    qualcos'altro <sub>pedice</sub> <br>
+    <var>variabile</var></p>
+
+    <p><pre>
+        proviamo a fare sta cosa
+        ora vado a capo
+        funziona ma il font è leggermente diverso
+    </pre></p>
+
+    <p><del>testo eliminato</del> sostituito <br>
+    <del>eliminato</del> <ins>nuovo</ins> <br>
+    <mark>evidenziato</mark><br>
+    testo normale <br>
+    <small>meno importante</small><br>
+    </p>
+<!-- alert è una funzione javascript, al momento non la conosciamo -->
+    <p>
+        <button onclick="alert('ciao')">ciao</button>
+        <a href="#" onclick="alert('bravo hai cliccato');">clicca qui</a> 
+        <!-- <button><a href="#" onclick="alert('ciao');">clicca qui</a></button> 
+        questa era une versione di valentina che funziona ma è "sbagliata" perchè attribuisce
+        click al link e non al bottone (ed è anche inutile mettere un link in un bottone)-->
+    </p>
+
+    <table>
+        <tr><td>Colonna 1</td><td>Colonna 2</td></tr>
+        <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+        <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+        <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+    </table>
+<!-- stessa tabella ma questa volta con tag semantici -->
+    <table>
+
+        <caption>
+        <p>I miei dati</p>
+        </caption>
+        
+        <thead>
+        <tr><th>Colonna 1</th><th>Colonna 2</th></tr>
+        </thead>
+        
+        <tfoot>
+        <tr><td>Totale 1</td><td>Totale 2</td></tr>
+        </tfoot>
+        
+        <tbody>
+        <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+        <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+        <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+        </tbody>
+        
+    </table>
+
+    <a href="https://www.google.it">link a google</a>
+    <a title="miao" target="_blank" 
+       href="https://magazine.arcaplanet.it/wp-content/uploads/2023/05/consigli-benessere-salute-miagolio-gattini.png">link molto bello</a>
+    <p><a href="curriculum_giusy_pellizzeri.html">il mio cv</a>
+    </p>
+    <img src="../download.jpg" alt="gattino bellino">
+    <img src="https://magazine.arcaplanet.it/wp-content/uploads/2023/05/consigli-benessere-salute-miagolio-gattini.png" alt="">
+</body>
+</html>

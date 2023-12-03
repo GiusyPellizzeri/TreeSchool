@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index3</title>
+    <style>
+        input:focus{background: pink;}
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>dati anagrafici</legend>
+            <label>anno di nascita <input type="text"></label><br>
+            <label for=""><input type="text"> anno di nascita</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>residenza</legend>
+            <input type="text" size="100" maxlength="40">
+        </fieldset>
+
+        <fieldset>
+            <legend>linguaggi conosciuti check</legend>
+            <input type="checkbox" name="java" value="java">java
+            <input type="checkbox" name="html" value="html">html
+            <input type="checkbox" name="css" value="css">css
+        </fieldset>
+
+        <fieldset>
+            <legend>linguaggi conosciuti radio</legend>
+            <!-- devono avere stesso nome ma diverso value -->
+            <input type="radio" name="linguaggio" value="java">java
+            <input type="radio" name="linguaggio" value="html">html
+            <input type="radio" name="linguaggio" value="css">css
+        </fieldset>
+
+        <fieldset>
+            <legend>Siti per webmaster</legend>
+            <select name="siti" >
+                <option value="https://miosito.it" selected="selected">www.miosito.it </option>
+                <option value="https://miosito2.it">miosito2.it</option>
+                <option value="https://miosito3.it">miosito3.it </option>
+            </select>
+        </fieldset>
+
+        <textarea name="area di testo" id="" cols="30" rows="10">
+            inserisci il testo
+        </textarea><br>
+
+        <input type="submit" value="invia"> 
+        <!-- oppure -->
+        <button type="submit">invia</button>
+    </form>
+<hr>
+    <iframe src="curriculum_giusy_pellizzeri.html" frameborder="0"></iframe>
+</body>
+</html>
